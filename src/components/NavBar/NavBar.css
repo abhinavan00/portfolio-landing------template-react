@@ -1,4 +1,4 @@
-.navbar {
+nav {
     width: 80%;
     background-color: #0B1326;
     border-bottom: 1px solid #424754;
@@ -9,7 +9,7 @@
     justify-content: space-around;
 }
 
-.navbar p {
+nav p {
     font-family: Geist;
     font-weight: bold;
     font-size: 1.5em;
@@ -35,7 +35,7 @@
     padding-bottom: .5em;
 }
 
-.navbar button {
+nav button {
     font-family: Inter;
     font-weight: 700;
     color: white;
@@ -47,6 +47,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-.navbar button:hover {
+nav button:hover {
     transform: scale(1.1);
 }
