@@ -1,0 +1,75 @@
+.hero-section {
+    width: 70%;
+    margin: 5em auto;
+    display: flex;
+    gap: 2em;
+}
+
+.hero-section-details h1 {
+    font-family: Geist;
+    font-weight: 900;
+    font-size: 3.75em;
+    color: #DAE2FD;
+    margin-bottom: 0;
+}
+
+.hero-section-details p {
+    font-family: Inter;
+    font-size: 1.125em;
+    color: #C2C6D6;
+    margin: 1em 0 2em;
+}
+
+.hero-section-btns-container {
+    display: flex;
+    gap: 1em;
+}
+
+.hire-me-btn, .view-project-btn {
+    font-family: Inter;
+    font-weight: 600;
+    padding: 1em 1.75em;
+    border-radius: .25em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.hire-me-btn:hover, .view-project-btn:hover {
+    transform: scale(1.1);
+}
+
+.hire-me-btn {
+    color: white;
+    background-color: #ADC6FF;
+    border: none;
+}
+
+.view-project-btn {
+    color: #DAE2FD;
+    background: none;
+    border: 1px solid #1E293B;
+}
+
+/* IMAGE */
+.img-container {
+    width: 450px;
+    height: 450px;
+    border: 1px solid #424754;
+    border-radius: .5em;
+    position: relative;
+}
+
+.img-container > img {
+    object-fit: cover;
+    border-radius: .5em;
+}
+
+.img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: .5em;
+    inset: 0;
+    background: linear-gradient(rgba(2, 6, 23, 0), rgba(2, 6, 23, 1));
+    /* border: 2px solid white; */
+}
