@@ -10,7 +10,7 @@ export default function TechStack() {
     })
 
     return (
-        <section>
+        <section className='tech-stack'>
             <h2>Technical Proficiency</h2>
             <div>
                 {techStackEls}

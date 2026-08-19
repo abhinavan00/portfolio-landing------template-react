@@ -1,0 +1,28 @@
+.tech-stack {
+    width: 70%;
+    margin: 0 auto 4em;
+    border-top: 1px solid #424754;
+}
+
+.tech-stack h2 {
+    font-family: Geist;
+    font-size: 2.25em;
+    font-weight: bold;
+    color: #DAE2FD;
+}
+
+.tech-stack div {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.tech-stack div p {
+    background-color: rgba(173, 198, 255, 0.1);
+    font-family: JetBrains Mono;
+    font-size: .95em;
+    color: #ADC6FF;
+    text-transform: uppercase;
+    padding: .5em 1em;
+    border-radius: .25em;
+}
