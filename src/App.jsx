@@ -9,7 +9,9 @@ function App() {
     <>
       <NavBar />
       <HeroSection />
-      <TechStack />
+      <TechStack 
+        techStack={['html5', 'css3', 'javascript', 'typescript', 'react', 'next.js', 'node.js', 'express.js', 'ai engineering', 'python', 'docker']} 
+      />
     </>
   )
 }

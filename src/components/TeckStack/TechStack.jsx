@@ -1,11 +1,8 @@
 import './TechStack.css'
 
-export default function TechStack() {
-    const techStackArr = [
-        'html5', 'css3', 'javascript', 'typescript', 'react', 'next.js', 'node.js', 'express.js', 'ai engineering', 'python', 'docker'
-    ]
+export default function TechStack({techStack}) {
 
-    const techStackEls = techStackArr.map(stack => {
+    const techStackEls = techStack.map(stack => {
         return <p>{stack}</p>
     })
 
